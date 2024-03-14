@@ -4183,7 +4183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 6491913700987384211}
-  whoCanOpen: 0
+  whoCanOpen: 3
 --- !u!212 &150802953268865269
 SpriteRenderer:
   m_ObjectHideFlags: 0
