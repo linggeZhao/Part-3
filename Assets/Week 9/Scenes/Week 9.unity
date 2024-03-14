@@ -1373,6 +1373,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 6491913701516345902}
+  whoCanOpen: 2
 --- !u!1001 &676232074
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2374,6 +2375,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 6491913701707544840}
+  whoCanOpen: 0
 --- !u!1 &1322579541
 GameObject:
   m_ObjectHideFlags: 0
@@ -2653,13 +2655,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1352392649}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.24345356, w: 0.9699126}
-  m_LocalPosition: {x: -0.6, y: 0.93, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: 0.3254383, w: 0.9455633}
+  m_LocalPosition: {x: -0.55, y: 1.06, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1065662255747170615}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -28.181}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 37.984}
 --- !u!1 &1384404475
 GameObject:
   m_ObjectHideFlags: 0
@@ -3814,6 +3816,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 6491913700987384211}
+  whoCanOpen: 0
 --- !u!212 &150802953268865269
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8149,6 +8152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 6491913701438405644}
+  whoCanOpen: 1
 --- !u!212 &8880890978940214816
 SpriteRenderer:
   m_ObjectHideFlags: 0
