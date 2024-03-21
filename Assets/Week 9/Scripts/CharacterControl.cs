@@ -2,11 +2,10 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 
 public class CharacterControl : MonoBehaviour
 {
-    public TMP_Text selectionText;
+    public TMPro.TextMeshProUGUI currentSelection;
     public static Villager SelectedVillager { get; private set; }
     public static void SetSelectedVillager(Villager villager)
     {
@@ -18,15 +17,11 @@ public class CharacterControl : MonoBehaviour
         SelectedVillager.Selected(true);
     }
 
-    void Update()
+    private void Update()
     {
-        if (SelectedVillager != null)
+        if(SelectedVillager != null)
         {
-            selectionText.text = SelectedVillager.GetType().Name;
-        }
-        else
-        {
-            selectionText.text = "No Selection";
+            currentSelection.text = SelectedVillager.GetType().ToString();
         }
     }
 }
