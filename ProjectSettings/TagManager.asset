@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Steps
+  - BlueCapsule
+  - GreenCapsule
+  - RedCapsule
+  - ScoreManager
   layers:
   - Default
   - TransparentFX
