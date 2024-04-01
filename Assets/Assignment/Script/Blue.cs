@@ -18,7 +18,6 @@ public class Blue : Character  // Derived from Character
     protected override void OnTriggerEnter2D(Collider2D collision)
     {
         //Detect if player hit a Blue capsule, destroy the capsule if BlueCharacter hit it (eat the capsule) and increase the score by 1 point.(score++)
-        //Used SendMessage.
         if (collision.gameObject.CompareTag("BlueCapsule") && collision.gameObject.TryGetComponent<Capsule>(out Capsule capsule))
         {
             StartCoroutine(capsule.Eat());

@@ -32,7 +32,6 @@ public class Green : Character  // Derived from Character
     protected override void OnTriggerEnter2D(Collider2D collision)
     {
         //Detect if player hit a green capsule, destroy the capsule if GreenCharacter hit it (eat the capsule) and increase the score by 1 point.(score++)
-        //Used SendMessage.
         if (collision.gameObject.CompareTag("GreenCapsule") && collision.gameObject.TryGetComponent<Capsule>(out Capsule capsule))
         {
             StartCoroutine(capsule.Eat());

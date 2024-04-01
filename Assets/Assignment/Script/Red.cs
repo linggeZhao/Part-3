@@ -57,7 +57,6 @@ public class Red : Character  // Derived from Character
         //Calls OnTriggerEnter2D in the Character class
         base.OnTriggerEnter2D(collision);
         //Detect if player hit a red capsule, destroy the capsule if RedCharacter hit it (eat the capsule) and increase the score by 1 point.(score++)
-        //Used SendMessage.
         if (collision.gameObject.CompareTag("RedCapsule") && collision.gameObject.TryGetComponent<Capsule>(out Capsule capsule))
         {
             StartCoroutine(capsule.Eat());
